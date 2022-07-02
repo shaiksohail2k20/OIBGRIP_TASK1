@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 20;
+}
+
+.main{
+    width: 100%;
+	height:100%;
+    background-image: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAIEA5gMBIgACEQEDEQH/xAAaAAADAQEBAQAAAAAAAAAAAAABAgMABAUH/8QAHRABAQEBAQEBAQEBAAAAAAAAAAECERIDITFBYf/EABkBAAMBAQEAAAAAAAAAAAAAAAECAwAEBf/EABgRAQEBAQEAAAAAAAAAAAAAAAABAhES/9oADAMBAAIRAxEAPwD5nDQpo9ty00UySKZh4jqq5VxP1LK+Dxzaq/zXw58R0fMzl26fm6fm5cVf50Khp14/HRiuTGlsX/qdK681WacudHm0qpK6PQXaXst2nYrNH3pD6abW0N7Dg9J9NOX66U+mnN9NMFR+lcv0q/005fpWGI7qG1dVDdCqZS3UtKaS0SrZJpOm0Skq0BgtEDOuGLDR3RWnypmJ5/quf4rENqZWwlhbJ5HNtXC+EMLYFzbdGKtiufNVxWqFdWKrjTmzVM6TpeumbPNuaaGbJYMro9lu0fZbslikqmto7+hN7R1svDyj9Nuf6aHe3PvTCX6ac+9G3pDdLTyF3UNU+6julq2YXVStNqktTWkJolNaS0tVkCsHWA3HdDQsPHfFKfMUynlTKkc+lcq5SwrlSOba2Vc1HKmaLl2tmq5qEp5oKlXRNHzpCWGmiUi/off4h6D0Wiv7/CXaXsmtlNFNbS1smtpa2WqQd6R3oNbR3oikjb0hrQ60lqlqsgaqWqOqlqlq2YGqS0bSVOqyBSDS2kUkZi2sB+PRhgn4MehBp8qZSimVco6i2Vc1DNVzTuXcWyplDNUlFzai0p5pGUZoErFpofSM0PotLxX03tH0HolHivsmtp3ZLoppD62lrZdaTuy1SQdbS3oNaT1SLZja0lqjqp6parIGqnqjanSVXMa0lo28JaSqyCS0aSkPIzAIG49OU0IaO+U1hz5TNlTNR1Fc1SVGU+ao5t5XzTyoSnlHrn1lb03pL03oLUrlb0HpL0HogeVvRbtL0W6LR8qXRbpO6JdFp5k90TWi3Sd2W1SZNdJ60GtEtKpMtdEtC0lpKtMjaS1rS9JVJG6TVG0tKpIwVgIaRmC1gNx6cMnKd2msNKYvRh5UrD5p5Uh6p1HWVpTTSM0Ppuoawt6D0n6D03U7hT010l6C6LaHhT0X2n6C6L0fJ7st0S6LdFtNMn6TWi3RbSqTI2ltLdFtLapMjaW0LS2lUmR6S1rQpKeZboNaAU/GDo0pDMzMDPRNmpyj12H4qJJTdHpLDdHpG6aVK5P0ep9bpup3KnQ9J2t6Dqdwe6L6L0tpeh5PdB6J0Ol63k10FpLQtbo+TWl6HS0vTzI9DoACkjFagS08jX+gzFp+BW/xqFLR4DMADxmbrA3Hd00qcppXWZQZSSiIU/RJKPW6SwehaHQtbpLkbS9C0Oh0lybpegVuh5N0Oh0Ol63k1pbQrdAZlrQboMaQQDodL08jWhRADcYGrUtNwKDAVmaswCDNQYHcaMzqE0FmEKzMzFrBpmApf8LWZiUS1mBiszAzUGZmBmYKJWZinjAzAcGZgolBmKzAzMzUGYGf/9k=');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #4dffff;
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+	font-size:15px;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #4dffff;
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid #4dffff;
+    margin-top: 13px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: #4dffff;
+    border: 2px solid #4dffff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: #000;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background: #4dffff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #4dffff;
+    font-size: 65px
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #4dffff;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #4dffff;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #4dffff;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #4dffff;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link a{
+    text-decoration: none;
+    color: #4dffff;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.icons a{
+    text-decoration: none;
+    color: #fff;
+}
+.icons ion-icon{
+    color: #fff;
+    font-size: 30px;
+    padding-left: 14px;
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+.icons ion-icon:hover{
+    color: #4dffff;
+}
